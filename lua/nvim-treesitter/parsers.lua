@@ -216,6 +216,14 @@ list.bp = {
   maintainers = { "@ambroisie" },
 }
 
+list.brightscript = {
+  install_info = {
+    url = "https://github.com/ajdelcimmuto/tree-sitter-brightscript",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@ajdelcimmuto" },
+}
+
 list.c = {
   install_info = {
     url = "https://github.com/tree-sitter/tree-sitter-c",
@@ -231,6 +239,14 @@ list.c_sharp = {
   },
   filetype = "cs",
   maintainers = { "@amaanq" },
+}
+
+list.caddy = {
+  install_info = {
+    url = "https://github.com/opa-oz/tree-sitter-caddy",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@opa-oz" },
 }
 
 list.cairo = {
@@ -1125,6 +1141,14 @@ list.java = {
     files = { "src/parser.c" },
   },
   maintainers = { "@p00f" },
+}
+
+list.javadoc = {
+  install_info = {
+    url = "https://github.com/rmuir/tree-sitter-javadoc",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@rmuir" },
 }
 
 list.javascript = {
